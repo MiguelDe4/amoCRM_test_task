@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1 task</title>
+  </head>
+  <body>
+    <input placeholder="Seconds" type="time" id="appt" name="appt"
+           step="2"/>
+
+    <button>Start</button>
+
+    <br />
+    <br />
+
+    <span>hh:mm:ss</span>
+
+    <script src="./index.js"></script>
+  </body>
+  <style>
+    input[type="time"]::-webkit-calendar-picker-indicator {
+      background: none;
+      display:none;
+    }
+    input{
+      font-size: 18px;
+    }
+    span{
+      font-size: 18px;
+    }
+  </style>
+</html>
